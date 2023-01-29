@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella olonge</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Nav-left">
+                <ul>
+                    <li><img src="images/Bella-Olonje-logo.jpg" alt=""></li>
+                </ul>
+            </div>
+            <div class="Nav-right">
+                <ul>
+                    <li>Home</li>
+                    <li>Pizza</li>
+                    <li>Burgers</li>
+                    <li>Salade</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="presentation">
+            <h4>Food app</h4>
+            <h1>Chez Bella, <br> chaque désir s'additionne</h1>
+        </div>
+    </header>
+    <main class="page2">
+        <form action="" method="post">
+            <h2 class="titres-commandes">Nous contacter</h2>
+            <div class="container-informations">
+                <div class="left-form">
+                    <label for="name">Nom</label>
+                    <br>
+                    <input type="text" placeholder="Nom">
+                    <br>
+                    <label for="phone">Téléphone</label>
+                    <br>
+                    <input type="text" placeholder="Téléphone">
+                    <br>
+                    <label for="compagny">Societé</label>
+                    <br>
+                    <input type="text" placeholder="Societé">
+                </div>
+                <div class="right-form">
+                    <label for="first-name">Prénom</label>
+                    <br>
+                    <input type="text" placeholder="Prénom">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" placeholder="Email">
+                    <br>
+                    <label for="fonction">Fonction</label>
+                    <br>
+                    <input type="text" placeholder="Fonction">
+                </div>
+            </div>
+            <div class="upload-unit">
+                <div>
+                    <button type="button" class="upload">Upload</button>
+                </div>
+                <div>
+                    <p class="file">Choose your file</p>
+                </div>
+            </div>
+            <div class="g-recaptcha" data-sitekey="6LeexjckAAAAAIreoyqsNu_Kv9Hcj6a098nJPBrj"></div>
+            <div class="objet">
+                <div>
+                    <label for="" id="objet-label">Objet</label>
+                </div>
+                <div>
+                    <select name="objet" id="Objet">
+                        <option value="Objet">Objet</option>
+                    </select>
+                </div>
+                <div class="text-area">
+                    <div>
+                        <label for="msg">Message</label>
+                    </div>
+                    <div>
+                        <textarea name="message" id="message" cols="148" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2628.830408097153!2d2.4330563156165703!3d48.78512787928036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67344bd2d57f1%3A0x2a84a845271b523a!2sAFPA!5e0!3m2!1sfr!2sfr!4v1674726996134!5m2!1sfr!2sfr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="div-send">
+                <button class="send-contact" type="submit">Envoyer</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,585 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Barre de Navigation */
+
+nav{
+    width: 100%;
+    height: 155px;
+    display: flex;
+    align-items: center;
+}
+
+.Nav-left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.Nav-right{
+    width: 60%;
+}
+
+.Nav-right ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Nav-right ul li{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.Nav-left img{
+    padding: 5%;
+}
+
+.burger{
+    display: none;
+}
+
+/* Image de présentation */
+
+.presentation{
+    width: 100%;
+    position: relative;
+    background-image: url(images/fond-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+.presentation h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+h4{
+    padding-top: 73px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+
+/* Titres */
+
+.titres-menus{
+    text-align: center;
+    /* margin-top: 99px; */
+    padding-top: 56px;
+    padding-bottom: 79px;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+}
+
+/* Cards */
+
+.container-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 30%;
+    border: solid #FA4A0C 3px;
+    padding: 1%;
+}
+
+.img-box{
+    width: 100%;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.text-box{
+    padding-left: 5%;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+}
+
+.buy{
+    display: flex;
+    justify-content:end;
+}
+
+.buy-button{
+    width: 38%;
+    height: 68px;
+    padding: 16px 0px;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    border: none;
+    }
+
+    hr{
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 25%;        
+        background-color: #E4E4E4;
+        border: 3px solid #E4E4E4
+    }
+
+    /* Texte avant footer */
+
+    .text-end{
+        margin-top: 10%;
+        margin-left: 4%;
+        margin-right: 305px;
+    }
+
+    .text-end h3{
+        font-size: 2.125rem;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+    }
+    
+    .text-end p{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 47px;
+        text-align: left;
+        margin-top: 18px;
+    }
+
+    .foot-pict{
+        width: 100%;
+        background-image: url(/images/fond-footer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 516px;
+        margin-top: 10%;
+    }
+
+    .foot-pict h3{
+        color: #FFFFFF;
+        font-size: 2.8rem;
+        font-weight: 700;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    /* Footer */
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .container-footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 133px;
+    }
+    
+    .container-footer p{
+        font-weight:700;
+        line-height: 18px;
+        text-align: right; 
+        color: #5C5C5C;
+    }
+    
+    .container-reseaux{
+        width: 171px;
+        height: 41px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* --------- Page commandes --------- */
+
+    /* Formulaire */
+
+    .container-informations{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 2%;
+        margin-left: -95px;
+    }
+
+    .titres-commandes{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 2%;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0.10000000149011612px;
+    }
+
+    input{
+        width: 320px;
+        height: 40px;
+        border: 1px solid #D9D9D9;
+        border-radius: 4px;
+        margin-bottom: 5%;
+    }
+
+    label{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .sous-titre{
+        padding-left: 3%;
+        padding-bottom: 2%;
+        font-size: 1.5rem;
+    }
+
+    .container-commande{
+        width: 55%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    select{
+        width: 320px;
+        height: 40px;
+        left: 0px;
+        top: 0px;
+        border-radius: 4px;
+        border: 1px solid #D9D9D9;
+        color: #BFBFBF;
+        padding-left: 12px;
+        margin-bottom: 5%;
+    }
+
+    ::placeholder{
+        padding: 5%;
+    }
+
+    .container-radio{
+        width: 25%;
+        padding-top: 1%;
+    }
+
+    .container-radio input{
+        width: 30%;
+        height: 30px;
+    }
+    
+    .container-radio label{
+        width: 40%;
+        margin-left: -20px;
+    }
+
+    .container-supplement{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 5%;
+        padding-top: 2%;
+        margin-left: -70px;
+    }
+
+    .supplement-boisson{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-supplement .sous-titre{
+        margin-bottom: 2%;
+    }
+
+    .left-supplement{
+        width: 45%;
+    }
+
+
+    .right-supplement{
+        width: 45%;
+    }
+
+    .supplement{
+        width: 200%;
+        height: 30px;
+    }
+
+    .submit-but{
+        width: 90%;
+        margin: 10px 0 10px 0;
+    }
+
+    #submit-button{
+        height: 68px;
+        width: 177px;
+        left: 0.5px;
+        top: 0px;
+        border-radius: 30px;
+        padding: 16px 0px 16px 0px;
+        background: #FA4A0C;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: #FFFFFF;
+        border: none;
+        float: right;
+        cursor: pointer;
+        /* margin: 5% 10% 10% 0; */
+    }
+
+
+    /* ---------- Page contact ---------- */
+
+    .upload{
+        height: 36px;
+        width: 139px;
+        left: 0px;
+        top: 0px;
+        border-radius: 4px;
+        background: #FA4A0C;
+        color: white;
+        border: none;
+    }
+
+    .upload-unit{
+        display: flex;
+        padding: 1% 0 0 8%;
+    }
+
+    .file{
+        padding-left: 20%;
+    }
+
+    .g-recaptcha{
+        margin-top: 3%;
+        padding-left: 6%;
+    }
+
+    .objet{
+        margin-top: 5%;
+        padding: 3% 0 0 8%;
+    }
+
+    #Objet{
+        width: 77.5%;
+    }
+
+    textarea{
+        resize: none;
+    }
+
+    iframe{
+        width: 80%;
+        padding: 3% 0 0 8%;
+    }
+
+    .send-contact{
+        height: 68px;
+        width: 177px;
+        left: 0.5px;
+        top: 0px;
+        border-radius: 30px;
+        padding: 16px 0px 16px 0px;
+        background: #FA4A0C;
+        color: white;
+        border: none;
+        float: right;
+        font-size: 1.2rem;
+        margin: 3% 20% 5% 0;
+    }
+    
+
+    /* ----------- Mobile ----------- */
+@media only screen and (max-device-width : 767px) {
+
+    .text-box{
+        padding-left: 5%;
+        font-size: 1.2rem;
+        line-height: 2.25rem;
+    }
+
+    .text-end{
+        width: 360px;
+        text-align: center;
+    }
+
+    .text-end h3{
+        width: 360px;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    .text-end p{
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 47px;
+        margin-top: 18px;
+        text-align: center;
+    }
+
+    .buy-button{
+        width: 100%;
+        height: 55px;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 1rem;
+        color: #FFFFFF;
+        border: none;
+        }
+
+    .container-cards{
+        display: block;
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+        border: solid #FA4A0C 3px;
+        padding: 2%;
+        margin: 10px 0 10px 0;
+    }
+
+    .Nav-left{
+        width: 100%;
+        display: flex;
+        align-items:flex-start;
+        margin-bottom: 50px;
+    }
+    
+    .Nav-right ul{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: calc(100vh - 155px);
+        position: absolute;
+        top: 100px;
+        right: 0;
+        color: #FA4A0C;
+        margin-top: 10px;
+    }    
+
+    img{
+        width: 100%;
+    }
+
+    /* ---------- Page commande ---------- */
+
+    .Nav-left{
+        width: 1000%;
+        justify-content: center;
+    }
+    
+    .titres-commandes{
+        font-size: 2.4rem;
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .sous-titre{
+        text-align: center;
+    }
+
+    .container-informations{
+        display: inline;
+        width: 100%;
+    }
+
+    .left-form{
+        text-align: center;
+    }
+
+    .right-form{
+        text-align: center;
+    }
+
+    .container-commande {
+        text-align: right;
+        padding-left: 50%;
+    }
+
+    .container-commande select{
+        width: 200px;
+    }
+    .container-commande input{
+        width: 110px;
+        margin-bottom: 9%;
+    }
+
+    .left-commande{
+        text-align: center;
+    }
+    .right-commande{
+        text-align: center;
+    }
+
+    .container-supplement{
+        display: inline;
+    }
+
+    .left-supplement {
+        width: 50%;
+    }
+    .right-supplement {
+        width: 50%;
+    }
+
+    .submit-but{
+        width: 100%;
+        margin: 0 0 10% 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container-radio{
+        width: 100%;
+    }
+
+    .supplement-boisson{
+        padding-top: 5%;
+        margin-left: 5%;
+    }
+
+    #Coca,#Fanta,#Eau,#Tiramisu,#CheeseCake,#Tarte{
+        width: 400%;
+        margin-left: 90%;
+    }
+
+    /* ---------- Page Contact ---------- */
+    #message{
+        width: 80%;
+    }
+
+    iframe{
+        width: 80%;
+        height: 80%;
+    }
+
+}
+    
+@media only screen and (max-device-width : 1379px){
+    
+    
+}

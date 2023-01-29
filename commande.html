@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella olonge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Nav-left">
+                <ul>
+                    <li><img src="images/Bella-Olonje-logo.jpg" alt=""></li>
+                </ul>
+            </div>
+            <div class="Nav-right">
+                <ul>
+                    <li>Home</li>
+                    <li>Pizza</li>
+                    <li>Burgers</li>
+                    <li>Salade</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="presentation">
+            <h4>Food app</h4>
+            <h1>Chez Bella, <br> chaque désir s'additionne</h1>
+        </div>
+        <form action="" method="post">
+            <h2 class="titres-commandes">Vos informations</h2>
+            <div class="container-informations">
+                <div class="left-form">
+                    <label for="name">Nom</label>
+                    <br>
+                    <input type="text" placeholder="Nom">
+                    <br>
+                    <label for="phone">Téléphone</label>
+                    <br>
+                    <input type="text" placeholder="Téléphone">
+                </div>
+                <div class="right-form">
+                    <label for="first-name">Prénom</label>
+                    <br>
+                    <input type="text" placeholder="Prénom">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" placeholder="Email">
+                </div>
+            </div>
+            <hr>
+            <h2 class="titres-commandes">Votre commande</h2>
+            <h3 class="sous-titre">Suppliments</h3>
+            <div class="container-commande">
+                <div class="left-commande">
+                    <label for="ingredient">Ingredient</label>
+                    <br>
+                    <select name="ingredient" id="">
+                        <option value="Fromage">Fromage</option>
+                    </select>
+                    <br>
+                    <label for="ingredient">Ingredient 1</label>
+                    <br>
+                    <select name="ingredient" id="">
+                        <option value="Fromage">Fromage</option>
+                    </select>
+                    <br>
+                    <label for="ingredient">Ingredient 2</label>
+                    <br>
+                    <select name="ingredient" id="">
+                        <option value="Fromage">Fromage</option>
+                    </select>
+                    <br>
+                    <label for="ingredient">Ingredient 3</label>
+                    <br>
+                    <select name="ingredient" id="">
+                        <option value="Fromage">Fromage</option>
+                    </select>
+                    <br>
+                </div>
+                <div class="right-commande">
+                    <label for="quantity">Quantité</label>
+                    <br>
+                    <input type="text" placeholder="1">
+                    <br>
+                    <label for="quantity">Quantité</label>
+                    <br>
+                    <input type="text" placeholder="1">
+                    <br>
+                    <label for="quantity">Quantité</label>
+                    <br>
+                    <input type="text" placeholder="1">
+                    <br>
+                    <label for="quantity">Quantité</label>
+                    <br>
+                    <input type="text" placeholder="1">
+                </div>
+            </div>
+            <div class="container-radio">
+                <div>
+                    <input type="radio" class="frites" name="frite" value="avec" checked>
+                    <label for="avec-frites">Avec frites</label>
+                </div>
+                <div>
+                    <input type="radio" class="frites" name="frite" value="sans">
+                    <label for="sans-frites">Sans frites</label>
+                </div>
+            </div>
+            <div class="container-supplement">
+                <div class="left-supplement">
+                    <h3 class="sous-titre">Boissons</h3>
+                    <div class="supplement-boisson">                      
+                        <div>
+                            <input type="checkbox" name="coca" class="supplement">
+                        </div>
+                        <div>
+                            <label for="coca-cola">Coca-cola</label>
+                        </div>
+                        <div>
+                            <select name="1" id="Coca">
+                                <option value="1">1</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="supplement-boisson">
+                        <div>
+                            <input type="checkbox" name="fanta" class="supplement">
+                        </div>
+                        <div>
+                            <label for="fanta">Fanta</label>
+                        </div>
+                        <div>
+                            <select name="1" id="Fanta">
+                                <option value="1">1</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="supplement-boisson">
+                        <div>
+                            <input type="checkbox" name="eau" class="supplement">
+                        </div>
+                        <div>
+                            <label for="eau">Eau</label>
+                        </div>
+                        <div>
+                            <select name="1" id="Eau">
+                                <option value="1">1</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-supplement">
+                    <h3 class="sous-titre">Dessert</h3>
+                    <div class="supplement-boisson">
+                        <div>
+                            <input type="checkbox" name="tiramisu" class="supplement">
+                        </div>
+                        <div>
+                            <label for="tiramisu">Tiramisu</label>
+                        </div>
+                        <div>
+                            <select name="1" id="Tiramisu">
+                                <option value="1">1</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="supplement-boisson">
+                        <div>
+                            <input type="checkbox" name="cheeseCake" class="supplement">
+                        </div>
+                        <div>
+                            <label for="cheeseCake">Cheese-cake</label>
+                        </div>
+                        <div>
+                            <select name="1" id="CheeseCake">
+                                <option value="1">1</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="supplement-boisson">
+                        <div>
+                            <input type="checkbox" name="tarte" class="supplement">
+                        </div>
+                        <div>
+                            <label for="tarte">Tarte</label>
+                        </div>
+                        <div>
+                            <select name="1" id="Tarte">
+                                <option value="1">1</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h2 class="titres-commandes">Vos informations</h2>
+            <div class="container-informations">
+                <div class="left-form">
+                    <label for="name">Nom</label>
+                    <br>
+                    <input type="text" placeholder="Nom">
+                    <br>
+                    <label for="phone">Téléphone</label>
+                    <br>
+                    <input type="text" placeholder="Téléphone">
+                    <br>
+                    <label for="adress">Adresse</label>
+                    <br>
+                    <input type="text" placeholder="Adresse">
+                    <br>
+                    <label for="city">Ville</label>
+                    <br>
+                    <input type="text" placeholder="Ville">
+                </div>
+                <div class="right-form">
+                    <label for="first-name">Prénom</label>
+                    <br>
+                    <input type="text" placeholder="Prénom">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" placeholder="Email">
+                    <br>
+                    <label for="code">Code postal</label>
+                    <br>
+                    <input type="text" placeholder="Code postal">
+                    <br>
+                    <label for="country">Pays</label>
+                    <br>
+                    <input type="text" placeholder="Pays">
+                </div>
+            </div>
+            <div class="submit-but">
+                <button type="submit" id="submit-button">Envoyer</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
